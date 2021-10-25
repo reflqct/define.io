@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Identity from './component/Identity'
 
 function App() {
   return (
     <div className="App">
-      <h1>Testing TSX</h1>
+      <Identity name="testing" description="Testing"></Identity>
     </div>
   );
 }
